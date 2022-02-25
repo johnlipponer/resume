@@ -1,42 +1,26 @@
 [
   {
     "skill": "Javascript",
-    "score": 5
+    "score": 4
   },
   {
     "skill": "Python",
-    "score": 5
+    "score": 7
   },
   {
-    "skill": "Java/Android",
-    "score": 5
+    "skill": "commuications",
+    "score": 10
   },
   {
-    "skill": "PhP",
+    "skill": "sql",
     "score": 3
   },
   {
-    "skill": "SQL",
-    "score": 4
+    "skill": "excel",
+    "score": 6
   },
   {
     "skill": "C++",
-    "score": 2
-  },
-  {
-    "skill": "LISP",
-    "score": 2
-  },
-  {
-    "skill": "English",
-    "score": 5
-  },
-  {
-    "skill": "Spanish",
-    "score": 4
-  },
-  {
-    "skill": "Italian",
-    "score": 2.5
+    "score": 1
   }
 ]

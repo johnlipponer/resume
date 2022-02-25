@@ -1,14 +1,15 @@
 import React from 'react';
-import profileImg from "./res/mxc-profile-sq.jpg";
+import  resumephoto from "./res/johnl.jpeg";
+
 
 function Contact(props) {
   return (
     <section className="text-center mb-2 semiTrans p-3 rounded">
       <div>
-        <a href="https://matt.curinga.com"
-          title="go to matt's site">https://matt.curinga.com</a>
+        <a href="https://www.youtube.com/watch?v=bTWw2-HbfYU"
+          title="see John interviewed at Port Jeff">https://www.youtube.com/watch?v=bTWw2-HbfYU</a>
       </div>
-      <div><a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></div>
+      <div><a href="mailto:johnlipponer@yahoo.com">johnlipponer@yahoo.com</a></div>
     </section>
   )
 }
@@ -17,8 +18,9 @@ function Contact(props) {
 function ProfileImg(props) {
 
   return (
-    <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid" src={profileImg}
-      alt="headshot of matt" />
+    <img className="mx-auto d-md-block d-sm-none mb-3 img-fluid" src={resumephoto}
+      alt="john sipping a pina colada in Montauk" />
+
   )
 
 }
@@ -28,12 +30,15 @@ function Bio(props) {
   return (
     <section className="Bio">
       <p className="text-justify mb-3">
-        I'm an experienced software developer and dedicated researcher of
-        digital media. I'm especially intersted in the politics of software
-        and software culture. I'm currently working on projects related to
-        informal, peer, and self-learning; computer science education; and
-        augmented reality.
-      </p>
+        I'm a Math teacher from Lake Grove, NY. Throughout my time in the
+        classroom I have taught Algebra II, Geometry, Statistics, and AP
+        Statistics. In the next few months, I plan to transition out of the
+        teaching field to pursue a career in software development.
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bTWw2-HbfYU"
+        title="YouTube video player" frameborder="0" allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture" allowfullscreen></iframe>
+    </p>
     </section>
   );
 }

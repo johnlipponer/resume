@@ -16,6 +16,7 @@ import React from 'react';
 import Experience from "./Work.jsx";
 import Education from "./Schools.jsx";
 import Skills from "./Skills.jsx";
+import Awards from "./awards.jsx";
 import {Bio, Contact, ProfileImg} from "./Profile.jsx";
 
 function Rez() {
@@ -26,6 +27,7 @@ function Rez() {
           <Header />
           <Experience />
           <Education />
+          <Awards />
         </div>
 
         <div className="MainSideCol col-md-4 flex-column">
@@ -44,17 +46,10 @@ function Rez() {
 function Header(props) {
   return (
     <header className="PortfolioHeader">
-      <h5>Matthew X. Curinga</h5>
+      <h5>John T. Lipponer</h5>
       <Bio />
     </header>
   );
 }
-
-
-
-
-
-
-
 
 export default Rez;

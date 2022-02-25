@@ -18,7 +18,7 @@ import Rez from "./PrettyRez.jsx"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-danger"  >
       <Rez />
     </div>
   );

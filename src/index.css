@@ -3,3 +3,16 @@
 .PortfolioHeader h5 {
   font-size: 64px;
 }
+
+.Rez{background-color: pink;
+     color: white}
+
+.Rez{
+ background-image: url("star.gif");
+ background-color: pink;
+}
+
+.Rez {border-left-color: pink;
+      border-left-style: dotted}
+
+body{color: white}
